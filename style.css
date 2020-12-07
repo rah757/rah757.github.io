@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  height: 115%;
 }
 
 .parallax {
@@ -25,6 +25,18 @@ body, html {
 	padding-top: 15%;
 	padding-bottom: 15%; 
 	margin: 50px auto;
+	font-family: 'Bookman', monospace;
+	border-radius: 25px;
+}
+
+.content2{
+	background: rgba(0, 1, 0, 0.4);
+	width: 75%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%; 
+	margin: 5px auto;
 	font-family: 'Bookman', monospace;
 	border-radius: 25px;
 }
@@ -62,9 +74,6 @@ p{
 	float: right;
 	margin-right:3%;
 	clear: left;
-
-
-  
 	
 
 }
@@ -94,8 +103,8 @@ p{
 .style2 {
 	background: rgba(0, 1, 0, 0);
 	width: 50%;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-top: 1%;
 	padding-bottom: 1%; 
 	margin: 1px auto;
@@ -107,15 +116,54 @@ p{
 
 .style3 {
 	background: rgba(0, 1, 0, 0.3);
-	width: 75%;
+	width: 55%;
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-top: 5%;
-	padding-bottom: 5%; 
+	padding-top: 1%;
+	padding-bottom: 1%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
 	border-radius: 25px;
 }
+
+.logo { 
+  width: auto;
+  height: auto;
+  text-align:left;
+  padding-left: 15%;
+}
+
+.logo img {
+  display:inline-block;
+} 
+
+.logo2 { 
+  width: auto;
+  height: auto;
+  text-align:center;
+  padding-left: 20%;
+}
+
+.logo2 img {
+  display:inline-block;
+} 
+
+.logo3 { 
+  width: auto;
+  height: auto;
+  text-align:right;
+  padding-left: 20%;
+}
+
+.logo3 img {
+  display:inline-block;
+} 
+
+.emptytext {
+	font-family: 'Bookman', monospace;
+	opacity: 0;
+}
+
 
 
 
