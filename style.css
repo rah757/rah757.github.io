@@ -1,6 +1,47 @@
 body, html {
-  height: 105%;
+  height: 103%;
 }
+html {
+  scroll-behavior: smooth;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 99.15%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20.5px;
+}
+
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav a.active:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active1 {
+  background-color: black;
+  color: white;
+  float: right;
+}
+.topnav a.active1:hover {
+  background-color: white;
+  color: black;
+}
+
 
 .parallax {
 
