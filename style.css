@@ -1,5 +1,5 @@
 body, html {
-  height: 103%;
+  height: 107%;
 }
 html {
   scroll-behavior: smooth;
@@ -9,7 +9,7 @@ html {
   background-color: black;
   position: fixed;
   top: 0;
-  width: 99.15%;
+  width: 100%;
 }
 
 .topnav a {
@@ -21,22 +21,51 @@ html {
   font-size: 20.5px;
 }
 
+.w3-bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0;
+	white-space:normal;
+
+}
+
+
+body{margin:0}
 
 .topnav a.active {
   background-color: black;
   color: white;
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23.5px;
+  	font-family:sans-serif;
+
 }
 
 .topnav a.active:hover {
   background-color: white;
   color: black;
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23.5px;
 }
 
 .topnav a.active1 {
   background-color: black;
   color: white;
   float: right;
+  font-family:sans-serif;
 }
+
 .topnav a.active1:hover {
   background-color: white;
   color: black;
@@ -63,7 +92,7 @@ html {
 	padding-bottom: 13%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 .content2{
@@ -75,11 +104,11 @@ html {
 	padding-bottom: 5%; 
 	margin: 5px auto;
 	font-family: 'Bookman', monospace;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 p{
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	font-weight: 500;
 	text-align: center;
@@ -95,16 +124,16 @@ p{
 	padding-bottom: 5%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 .imgbg{
 	background: url('./img/back2.jpg');
 	width: 20%;
 	padding-left: 1%;
-	padding-right: 2%;
+	padding-right: 1%;
 	padding-top: 15%;
-	padding-bottom: 16%; 
+	padding-bottom: 14%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
 	border-radius: 25px;
@@ -125,17 +154,17 @@ p{
 }
 .style1 {
 	background: rgba(0, 1, 0, 0.2);
-	width: 60%;
+	width: 58%;
 	padding-left: 5%;
-	padding-right: 1%;
+	padding-right: 5%;
 	padding-top: 12%;
 	padding-bottom: 12.2%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
-	border-radius: 25px;
+	border-radius: 20px;
 	float: left;
 	margin-left:3%;
-	clear: left;
+	clear: right;
 }
 
 .style2 {
@@ -161,14 +190,14 @@ p{
 	padding-bottom: 1%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
-	border-radius: 25px;
+	border-radius: 20px;
 }
 
 .logo { 
   width: auto;
   height: auto;
-  text-align:left;
-  padding-left: 15%;
+
+  padding-left: 42.35%;
 }
 
 .logo img {
@@ -178,8 +207,8 @@ p{
 .logo2 { 
   width: auto;
   height: auto;
-  text-align:center;
-  padding-left: 20%;
+
+  padding-left: 5%;
 }
 
 .logo2 img {
@@ -189,32 +218,20 @@ p{
 .logo3 { 
   width: auto;
   height: auto;
-  text-align:right;
-  padding-left: 20%;
+
+  padding-left: 5%;
 }
 
 .logo3 img {
   display:inline-block;
 } 
 
+
 .emptytext {
 	font-family: 'Bookman', monospace;
 	opacity: 0;
 }
-
-
-
-/*h1{
-	font-size: 69px;
-	color: #4b88eb;
-	align-content: center;
-	text-transform: uppercase;
-	font-family: 'Tahoma', 'Courier New';
-	font-weight: 550;
-	text-align: center;
-	padding-top: 25px;
-	text-shadow: 1;
-
-
-}*/
+.smolfont {
+	font-size: 15px;
+}
 
