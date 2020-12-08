@@ -1,15 +1,11 @@
 body, html {
-  height: 115%;
+  height: 105%;
 }
 
 .parallax {
-  /* The image used */
+
   background-image: url('./img/back.jpg');
-
-  /* Full height */
-  height: 115%; 
-
-  /* Create the parallax scrolling effect */
+  height: 100%; 
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -22,8 +18,8 @@ body, html {
 	width: 75%;
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-top: 15%;
-	padding-bottom: 15%; 
+	padding-top: 13%;
+	padding-bottom: 13%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
 	border-radius: 25px;
@@ -65,15 +61,16 @@ p{
 	background: url('./img/back2.jpg');
 	width: 20%;
 	padding-left: 1%;
-	padding-right: 60px;
+	padding-right: 2%;
 	padding-top: 15%;
 	padding-bottom: 16%; 
 	margin: 50px auto;
 	font-family: 'Bookman', monospace;
 	border-radius: 25px;
-	float: right;
-	margin-right:3%;
-	clear: left;
+	margin-left:4%;
+/*	clear: left;*/
+	display: inline-block;
+	background-repeat: no-repeat;
 	
 
 }
@@ -163,7 +160,6 @@ p{
 	font-family: 'Bookman', monospace;
 	opacity: 0;
 }
-
 
 
 
