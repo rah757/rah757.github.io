@@ -85,7 +85,7 @@ body{margin:0}
 .parallax2 {
 
   background-image: url('./img/back.jpg');
-  height: 86%; 
+  height: 90%; 
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
