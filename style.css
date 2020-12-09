@@ -82,6 +82,16 @@ body{margin:0}
   background-size: cover;
 
 }
+.parallax2 {
+
+  background-image: url('./img/back.jpg');
+  height: 70%; 
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 .content{
 	background: rgba(0, 1, 0, 0.4);
@@ -204,7 +214,7 @@ p{
   width: 40px;
   height: 40px;
 
-  padding-left: 41.7%;
+  padding-left: 41.6%;
 }
 
 .logo img {
